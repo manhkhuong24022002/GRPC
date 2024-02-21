@@ -1,0 +1,184 @@
+2024-02-06 17:52:27,490 - __SERVER__LOG__ - INFO: 
+Server is running...
+-----------
+
+2024-02-06 17:52:36,776 - __SERVER__LOG__ - INFO: 
+User client1 registered from address ipv6:%5B::1%5D:57815
+-----------
+
+2024-02-06 17:52:43,693 - __SERVER__LOG__ - INFO: 
+User client2 registered from address ipv6:%5B::1%5D:57818
+-----------
+
+2024-02-06 17:52:52,450 - __SERVER__LOG__ - INFO: 
+User client3 registered from address ipv6:%5B::1%5D:57820
+-----------
+
+2024-02-06 17:52:59,950 - __SERVER__LOG__ - INFO: 
+User client4 registered from address ipv6:%5B::1%5D:57822
+-----------
+
+2024-02-06 17:53:07,275 - __SERVER__LOG__ - INFO: 
+User client5 registered from address ipv6:%5B::1%5D:57823
+-----------
+
+2024-02-06 17:53:17,707 - __SERVER__LOG__ - INFO: 
+User client6 registered from address ipv6:%5B::1%5D:57824
+-----------
+
+2024-02-06 17:53:23,064 - __SERVER__LOG__ - INFO: 
+User client1 successfully created group chat 1
+-----------
+
+2024-02-06 17:53:23,064 - __SERVER__LOG__ - INFO: 
+Group 1 members: ['Username: client1 (ipv6:%5B::1%5D:57815)']
+-----------
+
+2024-02-06 17:53:23,064 - __SERVER__LOG__ - INFO: 
+Group info list: [group_id: "1"
+members: "Username: client1 (ipv6:%5B::1%5D:57815)"
+]
+-----------
+
+2024-02-06 17:53:26,839 - __SERVER__LOG__ - INFO: 
+User client2 joined the group 1
+-----------
+
+2024-02-06 17:53:26,839 - __SERVER__LOG__ - INFO: 
+Group 1 members: ['Username: client1 (ipv6:%5B::1%5D:57815)', 'Username: client2 (ipv6:%5B::1%5D:57818)']
+-----------
+
+2024-02-06 17:53:26,839 - __SERVER__LOG__ - INFO: 
+Group info list: [group_id: "1"
+members: "Username: client1 (ipv6:%5B::1%5D:57815)"
+members: "Username: client2 (ipv6:%5B::1%5D:57818)"
+]
+-----------
+
+2024-02-06 17:53:31,165 - __SERVER__LOG__ - INFO: 
+User client3 joined the group 1
+-----------
+
+2024-02-06 17:53:31,165 - __SERVER__LOG__ - INFO: 
+Group 1 members: ['Username: client1 (ipv6:%5B::1%5D:57815)', 'Username: client2 (ipv6:%5B::1%5D:57818)', 'Username: client3 (ipv6:%5B::1%5D:57820)']
+-----------
+
+2024-02-06 17:53:31,165 - __SERVER__LOG__ - INFO: 
+Group info list: [group_id: "1"
+members: "Username: client1 (ipv6:%5B::1%5D:57815)"
+members: "Username: client2 (ipv6:%5B::1%5D:57818)"
+members: "Username: client3 (ipv6:%5B::1%5D:57820)"
+]
+-----------
+
+2024-02-06 17:53:34,510 - __SERVER__LOG__ - INFO: 
+User client4 joined the group 1
+-----------
+
+2024-02-06 17:53:34,525 - __SERVER__LOG__ - INFO: 
+Group 1 members: ['Username: client1 (ipv6:%5B::1%5D:57815)', 'Username: client2 (ipv6:%5B::1%5D:57818)', 'Username: client3 (ipv6:%5B::1%5D:57820)', 'Username: client4 (ipv6:%5B::1%5D:57822)']
+-----------
+
+2024-02-06 17:53:34,525 - __SERVER__LOG__ - INFO: 
+Group info list: [group_id: "1"
+members: "Username: client1 (ipv6:%5B::1%5D:57815)"
+members: "Username: client2 (ipv6:%5B::1%5D:57818)"
+members: "Username: client3 (ipv6:%5B::1%5D:57820)"
+members: "Username: client4 (ipv6:%5B::1%5D:57822)"
+]
+-----------
+
+2024-02-06 17:53:37,842 - __SERVER__LOG__ - INFO: 
+User client5 joined the group 1
+-----------
+
+2024-02-06 17:53:37,842 - __SERVER__LOG__ - INFO: 
+Group 1 members: ['Username: client1 (ipv6:%5B::1%5D:57815)', 'Username: client2 (ipv6:%5B::1%5D:57818)', 'Username: client3 (ipv6:%5B::1%5D:57820)', 'Username: client4 (ipv6:%5B::1%5D:57822)', 'Username: client5 (ipv6:%5B::1%5D:57823)']
+-----------
+
+2024-02-06 17:53:37,842 - __SERVER__LOG__ - INFO: 
+Group info list: [group_id: "1"
+members: "Username: client1 (ipv6:%5B::1%5D:57815)"
+members: "Username: client2 (ipv6:%5B::1%5D:57818)"
+members: "Username: client3 (ipv6:%5B::1%5D:57820)"
+members: "Username: client4 (ipv6:%5B::1%5D:57822)"
+members: "Username: client5 (ipv6:%5B::1%5D:57823)"
+]
+-----------
+
+2024-02-06 17:53:41,281 - __SERVER__LOG__ - INFO: 
+User client6 successfully created group chat 2
+-----------
+
+2024-02-06 17:53:41,281 - __SERVER__LOG__ - INFO: 
+Group 1 members: ['Username: client1 (ipv6:%5B::1%5D:57815)', 'Username: client2 (ipv6:%5B::1%5D:57818)', 'Username: client3 (ipv6:%5B::1%5D:57820)', 'Username: client4 (ipv6:%5B::1%5D:57822)', 'Username: client5 (ipv6:%5B::1%5D:57823)']
+-----------
+
+2024-02-06 17:53:41,281 - __SERVER__LOG__ - INFO: 
+Group 2 members: ['Username: client6 (ipv6:%5B::1%5D:57824)']
+-----------
+
+2024-02-06 17:53:41,281 - __SERVER__LOG__ - INFO: 
+Group info list: [group_id: "1"
+members: "Username: client1 (ipv6:%5B::1%5D:57815)"
+members: "Username: client2 (ipv6:%5B::1%5D:57818)"
+members: "Username: client3 (ipv6:%5B::1%5D:57820)"
+members: "Username: client4 (ipv6:%5B::1%5D:57822)"
+members: "Username: client5 (ipv6:%5B::1%5D:57823)"
+, group_id: "2"
+members: "Username: client6 (ipv6:%5B::1%5D:57824)"
+]
+-----------
+
+2024-02-06 17:53:53,570 - __SERVER__LOG__ - INFO: 
+Group client2 does not exist.
+-----------
+
+2024-02-06 17:53:59,445 - __SERVER__LOG__ - INFO: 
+User client2 is in the group.
+-----------
+
+2024-02-06 17:54:30,591 - __SERVER__LOG__ - INFO: 
+User client1 send the broadcast message successfully to group chat 1
+-----------
+
+2024-02-06 17:54:38,995 - __SERVER__LOG__ - INFO: 
+User client2 send the broadcast message successfully to group chat 1
+-----------
+
+2024-02-06 17:54:44,989 - __SERVER__LOG__ - INFO: 
+User client3 send the broadcast message successfully to group chat 1
+-----------
+
+2024-02-06 17:54:53,887 - __SERVER__LOG__ - INFO: 
+User client4 send the broadcast message successfully to group chat 1
+-----------
+
+2024-02-06 17:55:03,629 - __SERVER__LOG__ - INFO: 
+User client5 send the broadcast message successfully to group chat 1
+-----------
+
+2024-02-06 17:55:16,076 - __SERVER__LOG__ - INFO: 
+User client5 has successfully sent a message to user client1.
+-----------
+
+2024-02-06 17:55:27,024 - __SERVER__LOG__ - INFO: 
+User client5 has successfully sent a message to user client1.
+-----------
+
+2024-02-06 17:55:35,082 - __SERVER__LOG__ - INFO: 
+User client1 has successfully sent a message to user client5.
+-----------
+
+2024-02-06 17:55:42,049 - __SERVER__LOG__ - INFO: 
+User client1 has successfully sent a message to user client5.
+-----------
+
+2024-02-06 17:55:54,112 - __SERVER__LOG__ - INFO: 
+User client5 has successfully sent a message to user client1.
+-----------
+
+2024-02-06 17:55:55,943 - __SERVER__LOG__ - INFO: 
+User client5 has successfully sent a message to user client1.
+-----------
+

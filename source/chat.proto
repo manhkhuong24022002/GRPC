@@ -1,0 +1,98 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto"; 
+message Empty {}
+
+message RegisterRequest {
+    string username = 1;
+}
+
+message RegisterResponse {
+    string message = 1;
+    bool success = 2;
+}
+message GroupRequest { 
+    string group_id = 1;
+    string username = 2; 
+}
+message GroupResponse {
+    bool success = 1;
+}
+
+message GroupInfo {
+    string group_id = 1;
+    repeated string members = 2;
+}
+message GroupInfoList {
+    repeated GroupInfo groups = 1;
+}
+message JoinGroupRequest {
+  string username = 1;
+  string group_id = 2;
+}
+
+message JoinGroupResponse {
+  string message = 1;
+}
+
+message SearchUserRequest {
+    string groupId_to_search = 1;
+    string username_to_search = 2;
+}
+
+message SearchUserResponse {
+    string message = 1;
+}
+
+message BroadcastMessageRequest {
+    string group_id = 1;
+    string sender = 2;
+    string content = 3;
+}
+
+message BroadcastMessageResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message GetGroupChatRequest {
+  string group_id = 1;
+}
+
+message Message {
+    int32 index = 1;
+    string sender = 2;
+    string content = 3;
+}
+
+message GetGroupChatResponse {
+    bool success = 1;
+    string message = 2;
+    repeated Message messages = 3;
+}
+
+message PrivateMessageRequest {
+    string sender = 1;
+    string receiver = 2;
+    string content = 3;
+}
+
+
+service ChatService {
+    rpc RegisterUser(RegisterRequest) returns (RegisterResponse);
+
+    rpc CreateGroup(GroupRequest) returns (GroupResponse);
+
+    rpc GetGroupInfoList(google.protobuf.Empty) returns (GroupInfoList);
+
+    rpc JoinGroup(JoinGroupRequest) returns (JoinGroupResponse);
+
+    rpc SearchUserInGroup(SearchUserRequest) returns (SearchUserResponse);
+
+    rpc BroadcastMessageStream(BroadcastMessageRequest) returns (stream BroadcastMessageResponse);
+
+    rpc GetGroupChat(GetGroupChatRequest) returns (GetGroupChatResponse);
+
+    rpc SendPrivateMessage(PrivateMessageRequest) returns (Empty);
+
+}
